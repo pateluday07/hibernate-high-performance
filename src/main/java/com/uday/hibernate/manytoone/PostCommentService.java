@@ -1,11 +1,6 @@
-package com.uday.hibernate.service;
+package com.uday.hibernate.manytoone;
 
 import org.springframework.stereotype.Service;
-
-import com.uday.hibernate.entity.Post;
-import com.uday.hibernate.entity.PostComment;
-import com.uday.hibernate.repository.PostCommentReposiotry;
-import com.uday.hibernate.repository.PostRepository;
 
 import lombok.RequiredArgsConstructor;
 

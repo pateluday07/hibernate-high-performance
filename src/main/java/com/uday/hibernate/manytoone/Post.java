@@ -1,4 +1,4 @@
-package com.uday.hibernate.entity;
+package com.uday.hibernate.manytoone;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

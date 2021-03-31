@@ -1,4 +1,4 @@
-package com.uday.hibernate.controller;
+package com.uday.hibernate.manytoone;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,9 +7,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.uday.hibernate.entity.PostComment;
-import com.uday.hibernate.service.PostCommentService;
 
 import lombok.RequiredArgsConstructor;
 
