@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hibernate_high_performance
+    username: postgres
+    password: root
+    platform: 
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+   
+  jackson:
+    serialization:
+      fail-on-empty-beans: false
